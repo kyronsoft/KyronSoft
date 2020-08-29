@@ -1008,3 +1008,9 @@ figure figcaption {
   margin-top: .5rem;
   font-style: italic;
   font-size: .8rem; }
+
+  @media (min-width: 375px) { 
+    .main-title h1 {
+      margin-top: 90px !important;
+    }
+  }

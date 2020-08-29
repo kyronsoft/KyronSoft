@@ -92,7 +92,7 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-6">
-                <h1 class="text-white">Soy Javier A. Ruiz</h1>
+                <h1 class="text-white main-title">Soy Javier A. Ruiz</h1>
                 <p class="text-secondary">Project Manager <span class="mx-3">|</span> FullStack Developer</p>
                 <p class="lead text-justify">En el vasto mundo de la tecnología hay un mundillo conformado por proyectos
                   de
@@ -256,6 +256,15 @@
               </div>
             </div>
             <div class="mb-5">
+              <strong class="text-info">Vue JS / Vuex</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 85%;">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
               <strong class="text-info">MySQL/PostGreSQL/SQL Server/Oracle</strong>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
@@ -273,9 +282,17 @@
                 </div>
               </div>
             </div>
-            <p><a href="#contact-section" class="btn smoothscroll btn-primary">Mira mi CV</a></p>
           </div>
-
+        </div>
+        <div class="row footer">
+          <a href="https://twitter.com/jaruizr74" target="_blank" class="twitter p-2"><span
+              class="icon-twitter"></span></a>
+          <a href="https://www.facebook.com/jaruiz74" target="_blank" class="facebook p-2"><span
+              class="icon-facebook"></span></a>
+          <a href="https://www.instagram.com/jaruizr74" target="_blank" class="instagram p-2"><span
+              class="icon-instagram"></span></a>
+          <a href="https://www.linkedin.com/in/javier-arturo-ruiz-rodriguez-8745149" target="_blank"
+            class="linkedin p-2"><span class="icon-linkedin"></span></a>
         </div>
       </div>
     </div>
@@ -392,9 +409,9 @@
 
           <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
             <div class="blog_entry">
-              <a href="single.html"><img src="images/blog_1.jpg" alt="Image" class="img-fluid"></a>
+              <a href="https://www.regiondigital.com/noticias/reportajes/311430-5-motivos-para-crear-una-app-o-aplicacion-web-para-tu-empresa.html" arget="_blank"><img src="images/blog_1.jpg" alt="Image" class="img-fluid"></a>
               <div class="p-4 bg-white">
-                <h3><a href="single.html">5 motivos para crear una App o Aplicación Web para tu empresa</a></h3>
+                <h3><a href="https://www.regiondigital.com/noticias/reportajes/311430-5-motivos-para-crear-una-app-o-aplicacion-web-para-tu-empresa.html" arget="_blank">5 motivos para crear una App o Aplicación Web para tu empresa</a></h3>
                 <span class="date">27 mayo, 2019</span>
                 <p class="text-justify">La tecnología actual que nos rodea abre un nuevo mundo lleno de oportunidades.
                   Hoy en día, 4 de cada
@@ -409,9 +426,9 @@
 
           <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
             <div class="blog_entry">
-              <a href="single.html"><img src="images/blog_3.jpg" alt="Image" class="img-fluid"></a>
+              <a href="https://www.yeeply.com/blog/tendencias-apps-2020/" arget="_blank"><img src="images/blog_3.jpg" alt="Image" class="img-fluid"></a>
               <div class="p-4 bg-white">
-                <h3><a href="single.html">Tendencias apps 2020: innovación en ideas y desarrollo</a></h3>
+                <h3><a href="https://www.yeeply.com/blog/tendencias-apps-2020/" arget="_blank">Tendencias apps 2020: innovación en ideas y desarrollo</a></h3>
                 <span class="date">16 Diciembre, 2019</span>
                 <p class="text-justify">El 2019 ha sido un buen año para el desarrollo de aplicaciones móviles. Palabras
                   como inteligencia
@@ -425,9 +442,9 @@
 
           <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
             <div class="blog_entry">
-              <a href="single.html"><img src="images/blog_2.jpg" alt="Image" class="img-fluid"></a>
+              <a href="https://www.entrepreneur.com/article/290800" arget="_blank"><img src="images/blog_2.jpg" alt="Image" class="img-fluid"></a>
               <div class="p-4 bg-white">
-                <h3><a href="single.html">¿Por qué tu negocio debe tener una página web?</a></h3>
+                <h3><a href="https://www.entrepreneur.com/article/290800" arget="_blank">¿Por qué tu negocio debe tener una página web?</a></h3>
                 <span class="date">17 Marzo 2017</span>
                 <p class="text-justify">Durante los últimos 30 años la necesidad de las empresas por estar presentes en
                   la red ha crecido
@@ -449,40 +466,43 @@
             <h2 class="section-title text-center text-white mb-5">¿Cómo te puedo ayudar?</h2>
           </div>
         </div>
-        <form action="#" class="form">
+        <form action="email_form.php?do=send" method="POST" class="form">
+          <p>* Campos Requeridos</p>
+          <?php
+   if ($message) echo '<p style="color:red;">'.$message.'</p>';
+?>
           <div class="row mb-4">
             <div class="form-group col-6">
-              <input type="text" class="form-control" placeholder="Nombres">
+              <input type="text" class="form-control" placeholder="Nombres" name="fname" size="30" value="<?php echo @$fname ?>" required>
             </div>
             <div class="form-group col-6">
-              <input type="text" class="form-control" placeholder="Apellidos">
+              <input type="text" class="form-control" placeholder="Apellidos" name="lname" size="30" value="<?php echo @$lname ?>" required>
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="email" class="form-control" placeholder="Correo Electrónico">
+              <input type="email" class="form-control" placeholder="Correo Electrónico" size="30" name="email" value="<?php echo @$femail ?>" required>
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="text" class="form-control" placeholder="Asunto">
+              <input type="text" class="form-control" placeholder="Asunto" name="asunto" required>
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Mensaje..."></textarea>
+              <textarea cols="30" rows="10" class="form-control" name="fsendmail" placeholder="Mensaje..."><?php if($fsendmail) echo $fsendmail; ?></textarea>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-6">
-              <input type="submit" class="btn btn-warning" value="Enviar">
+              <button type="submit" class="btn btn-warning">Enviar</button>
             </div>
           </div>
-
         </form>
       </div>
     </section>
@@ -575,6 +595,7 @@
   <script src="js/jquery.sticky.js"></script>
 
   <script src="js/main.js"></script>
+  <script src="js/botonws.js"></script>
 
 
 </body>
