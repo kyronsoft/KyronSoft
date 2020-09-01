@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/png">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
@@ -58,7 +59,7 @@
           </div>
 
           <div class=" text-center mx-5">
-            <h1 class="m-0 site-logo"><a href="index.html"><img src="images/logo.png" alt="logo" class="img-fluid"
+            <h1 class="m-0 site-logo"><a href="index.php"><img src="images/logo.png" alt="logo" class="img-fluid"
                   style="width: 35%; height: auto;"></a></h1>
           </div>
 
@@ -100,9 +101,6 @@
                   emprendedores necesitan herramientas construidas como una artesania.</p>
                 <p><a href="#contact-section" class="btn smoothscroll btn-primary">Contáctame</a></p>
               </div>
-              <!-- <div class="col-lg-6">
-                <img src="images/onlyicon.png" alt="logo" class="img-fluid">
-              </div> -->
             </div>
           </div>
 
@@ -126,6 +124,7 @@
                 <p class="text-justify">Construyo aplicaciones web con buena pinta, rápidas, eficientes y seguras! que
                   pueden ser lanzadas
                   desde dispositivos móviles gracias al <i>responsive-enabled</i> incluído.</p>
+                  <p><a href="webdev.html" class="btn smoothscroll btn-primary">Conoce más...</a></p>
               </div>
             </div>
           </div>
@@ -138,6 +137,7 @@
                 <p class="text-justify">Construyo aplicaciones móviles de diseño profesional que funcionan tanto para
                   <i>Android</i> como para <i>iOS</i>. Seguras, rápidas y listas para descargar de
                   GooglePlay y AppStore!.</p>
+                  <p><a href="mobdev.html" class="btn smoothscroll btn-primary">Conoce más...</a></p>
               </div>
             </div>
           </div>
@@ -150,6 +150,7 @@
                 <p class="text-justify">Desde una Landing Page hasta un sitio web de múltiples páginas usando Bootstrap
                   como framework entrego sitios web profesionales, rápidos, seguros y listos para posicionarse en los
                   primeros lugares!.</p>
+                  <p><a href="sitedev.html" class="btn smoothscroll btn-primary">Conoce más...</a></p>
               </div>
             </div>
           </div>
@@ -186,6 +187,7 @@
                   un
                   servicio de evaluación de aspectos tales como: Arquitectura, Herramientas, Patrón de diseño,
                   Infraestructura y Pruebas.</p>
+                  <p><a href="eval.html" class="btn smoothscroll btn-primary">Conoce más...</a></p>
               </div>
             </div>
           </div>
@@ -287,7 +289,7 @@
         <div class="row footer">
           <a href="https://twitter.com/jaruizr74" target="_blank" class="twitter p-2"><span
               class="icon-twitter"></span></a>
-          <a href="https://www.facebook.com/jaruiz74" target="_blank" class="facebook p-2"><span
+          <a href="https://www.facebook.com/Kyronsoft-114328727063179" target="_blank" class="facebook p-2"><span
               class="icon-facebook"></span></a>
           <a href="https://www.instagram.com/jaruizr74" target="_blank" class="instagram p-2"><span
               class="icon-instagram"></span></a>
@@ -482,7 +484,7 @@
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="email" class="form-control" placeholder="Correo Electrónico" size="30" name="email" value="<?php echo @$femail ?>" required>
+              <input type="email" class="form-control" placeholder="Correo Electrónico" size="30" name="femail" value="<?php echo @$femail ?>" required>
             </div>
           </div>
 
@@ -494,7 +496,7 @@
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <textarea cols="30" rows="10" class="form-control" name="fsendmail" placeholder="Mensaje..."><?php if($fsendmail) echo $fsendmail; ?></textarea>
+              <textarea cols="30" rows="5" class="form-control" name="fsendmail" placeholder="Mensaje..."><?php if($fsendmail) echo $fsendmail; ?></textarea>
             </div>
           </div>
 
@@ -502,6 +504,7 @@
             <div class="col-md-6">
               <button type="submit" class="btn btn-warning">Enviar</button>
             </div>
+            <div class="col-md-6"><?php echo $message ?></div>
           </div>
         </form>
       </div>
@@ -559,7 +562,7 @@
             <h3 class="footer-title">Sigueme</h3>
             <a href="https://twitter.com/jaruizr74" target="_blank" class="twitter p-2"><span
                 class="icon-twitter"></span></a>
-            <a href="https://www.facebook.com/jaruiz74" target="_blank" class="facebook p-2"><span
+            <a href="https://www.facebook.com/Kyronsoft-114328727063179" target="_blank" class="facebook p-2"><span
                 class="icon-facebook"></span></a>
             <a href="https://www.instagram.com/jaruizr74" target="_blank" class="instagram p-2"><span
                 class="icon-instagram"></span></a>

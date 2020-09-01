@@ -8,6 +8,7 @@ switch (@$_GET['do'])
       $lname = $_POST['lname'];
       $femail = $_POST['femail'];
       $fsendmail = $_POST['fsendmail'];
+      
 
     if (!preg_match("/\S+/",$fname))
     {
@@ -19,12 +20,6 @@ switch (@$_GET['do'])
     {
       unset($_GET['do']);
       $message = "Apellido es requerido. Intente nuevamente.";
-      break;
-    }
-    if (!preg_match("/^\S+@[A-Za-z0-9_.-]+\.[A-Za-z]{2,6}$/",$femail))
-    {
-      unset($_GET['do']);
-      $message = "El correo electónico está mal escrito. Intente nuevamente.";
       break;
     }
      
@@ -39,7 +34,7 @@ switch (@$_GET['do'])
        $message = "Mensaje Enviado.";
  
        unset($_GET['do']);
-       header("Location: index.php");
+       header("location: single.php");
      break;
  
  default: break;
