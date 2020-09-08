@@ -114,7 +114,7 @@
               <div class="service-number mr-4"><span class="icon-web"></span></div>
               <div class="service-about">
                 <h3>Desarrollo para Web</h3>
-                <p class="text-justify">Construyo aplicaciones web con buena pinta, rápidas, eficientes y seguras! que
+                <p class="text-justify">Construcción de aplicaciones web con buena pinta, rápidas, eficientes y seguras! que
                   pueden ser lanzadas
                   desde dispositivos móviles gracias al <i>responsive-enabled</i> incluído.</p>
                 <p><a href="webdev.html" class="btn smoothscroll btn-primary">Conoce más...</a></p>
@@ -127,7 +127,7 @@
               <div class="service-number mr-4"><span class="icon-mobile"></span></div>
               <div class="service-about">
                 <h3>Desarrollo para Móviles</h3>
-                <p class="text-justify">Construyo aplicaciones móviles de diseño profesional que funcionan tanto para
+                <p class="text-justify">Construcción de aplicaciones móviles de diseño profesional que funcionan tanto para
                   <i>Android</i> como para <i>iOS</i>. Seguras, rápidas y listas para descargar de
                   GooglePlay y AppStore!.</p>
                 <p><a href="mobdev.html" class="btn smoothscroll btn-primary">Conoce más...</a></p>
@@ -141,7 +141,7 @@
               <div class="service-about">
                 <h3>Sitios Web</h3>
                 <p class="text-justify">Desde una Landing Page hasta un sitio web de múltiples páginas usando Bootstrap
-                  como framework entrego sitios web profesionales, rápidos, seguros y listos para posicionarse en los
+                  como framework entregamos sitios web profesionales, rápidos, seguros y listos para posicionarse en los
                   primeros lugares!.</p>
                 <p><a href="sitedev.html" class="btn smoothscroll btn-primary">Conoce más...</a></p>
               </div>
@@ -153,9 +153,9 @@
               <div class="service-number mr-4"><span class="icon-view_quilt"></span></div>
               <div class="service-about">
                 <h3>Productos de Software</h3>
-                <p class="text-justify">Tengo a disposición productos de software para múltiples necesidades: <i>Punto
+                <p class="text-justify">Tenemos a disposición productos de software para múltiples necesidades: <i>Punto
                     de Venta e Inventarios,
-                    Tienda Virtual, Ventas por Suscripción, MLM y Reservas y Alquiler.</i></p>
+                    Tienda Virtual, CMS, Ventas por Suscripción, MLM y Reservas y Alquiler.</i></p>
               </div>
             </div>
           </div>
@@ -176,7 +176,7 @@
               <div class="service-number mr-4"><span class="icon-line-chart"></span></div>
               <div class="service-about">
                 <h3>Evaluación de Aplicaciones</h3>
-                <p class="text-justify">Destaco a Renata e Innpulsa como los dos proyectos que me permitieron entregar
+                <p class="text-justify">Destacamos a Renata e Innpulsa como los dos proyectos en los cuales se entregó
                   un
                   servicio de evaluación de aspectos tales como: Arquitectura, Herramientas, Patrón de diseño,
                   Infraestructura y Pruebas.</p>
@@ -199,10 +199,10 @@
           </div>
           <div class="col-lg-6 order-2 order-lg-1">
             <img class="img-fluid mb-4" src="images/profile_image.jpg" alt="profile">
-            <p class="text-justify">En mi trabajo profesional soy organizado, métodico, visionario, propositivo y
+            <p class="text-justify">Organizado, métodico, visionario, propositivo y
               disciplinado. Establezco metas y objetivos claros, medibles y de fácil seguimiento que me han permitido
               dirigir equipos de trabajo de más de 10 personas directas y 150 indirectas en diferentes paises (Colombia,
-              Brasil, Chile y Panamá).</p>
+              Brasil, Chile y Panamá). Toda mi experiencia en la entrega de software construído como una artesanía.</p>
           </div>
           <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
             <div class="mb-5">
