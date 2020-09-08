@@ -49,7 +49,7 @@
       <div class="container-fluid">
         <div class="row align-items-center justify-content-center">
 
-          <div class="">
+          <div class="text-right">
             <nav class="site-navigation position-relative text-right">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Inicio</a></li>
@@ -59,12 +59,11 @@
             </nav>
           </div>
 
-          <div class=" text-center mx-5">
-            <h1 class="m-0 site-logo"><a href="index.php"><img src="images/logo.png" alt="logo" class="img-fluid" style="width: 35%; height: auto;"></a></h1>
+          <div class="img-logo text-center mx-5">
+            <h1 class="m-0 site-logo"><a href="index.php"><img src="images/rsz_logo.png" alt="logo" class="img-fluid"></a></h1>
           </div>
 
           <div class="text-left">
-
             <nav class="site-navigation position-relative">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#portfolio-section" class="nav-link">Proyectos</a></li>
@@ -72,15 +71,10 @@
                 <li><a href="#contact-section" class="nav-link">Contacto</a></li>
               </ul>
             </nav>
-
-
             <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
           </div>
-
         </div>
       </div>
-
     </header>
 
 
@@ -502,7 +496,7 @@
             <h3 class="footer-title">Kyronsoft</h3>
             <p>Software bien hecho!</p>
             <p><span class="d-inline-block d-md-block">WeWork Calle 26</span> Bogotá, Colombia</p>
-            <div><img src="images/logo.png" alt="logo" class="img-fluid" style="width: 50%; height: auto;"></div>
+            <div class="img-logo"><img src="images/rsz_logo.png" alt="logo" class="img-fluid"></div>
           </div>
           <div class="col-md-5 mx-auto">
             <div class="row">

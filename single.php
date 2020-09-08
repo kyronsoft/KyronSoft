@@ -46,7 +46,7 @@
       <div class="container-fluid">
         <div class="row align-items-center justify-content-center">
 
-          <div class="">
+          <div class="text-right">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="index.php#home-section" class="nav-link">Inicio</a></li>
@@ -56,9 +56,8 @@
             </nav>
           </div>
 
-          <div class=" text-center mx-5">
-            <h1 class="m-0 site-logo"><a href="index.php"><img src="images/logo.png" alt="logo" class="img-fluid"
-                  style="width: 35%; height: auto;"></a></h1>
+          <div class="img-logo text-center mx-5">
+            <h1 class="m-0 site-logo"><a href="index.php"><img src="images/logo.png" alt="logo" class="img-fluid"></a></h1>
           </div>
 
           <div class="text-left">
@@ -72,8 +71,7 @@
             </nav>
 
 
-            <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a href="#"
-                class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+            <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
 
           </div>
 
@@ -87,14 +85,16 @@
 
       <div class="container">
         <div class="row justify-content-center">
-        <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
-        <div class="row">
+          <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
+            <div class="row">
               <div class="col-lg-6">
-        <h1>Mensaje Enviado. Gracias!.</h1>          
+                <h1>Mensaje Enviado. Gracias!.</h1>
               </div>
-              <div class="col-lg-6"><h1><br><br> Pronto te estaré enviando una respuesta!.</h1></div>
-        </div>
-        </div>
+              <div class="col-lg-6">
+                <h1><br><br> Pronto te estaré enviando una respuesta!.</h1>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -107,7 +107,7 @@
             <h3 class="footer-title">Kyronsoft</h3>
             <p>Software bien hecho!</p>
             <p><span class="d-inline-block d-md-block">WeWork Calle 26</span> Bogotá, Colombia</p>
-            <div><img src="images/logo.png" alt="logo" class="img-fluid" style="width: 50%; height: auto;"></div>
+            <div class="img-logo"><img src="images/logo.png" alt="logo" class="img-fluid"></div>
           </div>
           <div class="col-md-5 mx-auto">
             <div class="row">
@@ -150,14 +150,10 @@
           </div>
           <div class="col-md-3">
             <h3 class="footer-title">Sigueme</h3>
-            <a href="https://twitter.com/jaruizr74" target="_blank" class="twitter p-2"><span
-                class="icon-twitter"></span></a>
-            <a href="https://www.facebook.com/jaruiz74" target="_blank" class="facebook p-2"><span
-                class="icon-facebook"></span></a>
-            <a href="https://www.instagram.com/jaruizr74" target="_blank" class="instagram p-2"><span
-                class="icon-instagram"></span></a>
-            <a href="https://www.linkedin.com/in/javier-arturo-ruiz-rodriguez-8745149" target="_blank"
-              class="linkedin p-2"><span class="icon-linkedin"></span></a>
+            <a href="https://twitter.com/jaruizr74" target="_blank" class="twitter p-2"><span class="icon-twitter"></span></a>
+            <a href="https://www.facebook.com/jaruiz74" target="_blank" class="facebook p-2"><span class="icon-facebook"></span></a>
+            <a href="https://www.instagram.com/jaruizr74" target="_blank" class="instagram p-2"><span class="icon-instagram"></span></a>
+            <a href="https://www.linkedin.com/in/javier-arturo-ruiz-rodriguez-8745149" target="_blank" class="linkedin p-2"><span class="icon-linkedin"></span></a>
           </div>
         </div>
 
@@ -165,7 +161,9 @@
           <div class="col-12 text-center">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             <p>Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Esta plantilla
+              <script>
+                document.write(new Date().getFullYear());
+              </script> Todos los derechos reservados | Esta plantilla
               fue
               tomada de <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
